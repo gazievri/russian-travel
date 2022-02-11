@@ -1,7 +1,6 @@
 .header__link {
-  font-family: Inter;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   line-height: 28px;
   color: #fff;
@@ -18,3 +17,7 @@
     line-height: 20px;
   }
 }
+
+
+
+

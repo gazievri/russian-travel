@@ -3,7 +3,8 @@
   padding: 0;
   margin: 0;
   color: #FFFFFF;
-  font-family: "Inter Black";
+  /*font-family: "Inter";*/
+  font-weight: 700;
   font-size: 12px;
   padding-top: 33px;
   align-self: baseline;
