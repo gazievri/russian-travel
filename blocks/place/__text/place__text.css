@@ -1,0 +1,16 @@
+.place__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}

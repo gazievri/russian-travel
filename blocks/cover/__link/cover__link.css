@@ -1,0 +1,24 @@
+.cover__link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.cover__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.3s;
+}
+
+.cover__link:hover::before  {
+  opacity: 0.8;
+}

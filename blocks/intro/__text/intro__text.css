@@ -1,0 +1,16 @@
+.intro__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 40px;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}

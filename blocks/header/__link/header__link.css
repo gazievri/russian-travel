@@ -1,0 +1,20 @@
+.header__link {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 28px;
+  color: #fff;
+}
+
+.header__link:last-child {
+  text-decoration: none;
+  margin-left: 18px;
+}
+
+@media (max-width: 320px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

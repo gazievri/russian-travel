@@ -1,0 +1,27 @@
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 505px) {
+  .footer__links {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}

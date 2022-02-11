@@ -1,0 +1,21 @@
+.footer__author {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 700px) {
+  .footer__author {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__author {
+    padding-top: 48px;
+  }
+}
