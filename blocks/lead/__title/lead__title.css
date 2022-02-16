@@ -1,6 +1,5 @@
 .lead__title {
   margin: 0;
-  /*font-family: "Inter";*/
   font-size: 96px;
   font-weight: 900;
   color: #fff;
@@ -13,22 +12,23 @@
 
 @media (max-width: 768px) {
   .lead__title {
-    /*font-size: 50px;*/
-    font-size: calc(100vw/100*9.5);
-    max-width: calc(100vw/100*67.8);
+    font-size: 12.5vw;
+    max-width: 720px;
   }
 }
 
 @media (max-width: 425px) {
   .lead__title {
     font-size: 40px;
-    max-width: 288px;
+    /*max-width: 288px;*/
   }
 }
 
 @media (max-width: 320px) {
   .lead__title {
+    margin: 48px 16px 0;
     font-size: 40px;
-    max-width: 288px;
+    line-height: 44px;
+    /*max-width: 288px;*/
   }
 }

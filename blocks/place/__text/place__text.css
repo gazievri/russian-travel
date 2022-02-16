@@ -2,15 +2,29 @@
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.61;
   color: #FFFFFF;
   margin: 0;
-  padding-bottom: 20px;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .place__text {
+   /*max-width: ;*/
+  }
 }
 
 @media (max-width: 768px) {
   .place__text {
     font-size: 16px;
     line-height: 163%;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__text {
+    font-size: 16px;
+    line-height: 26.08px;
+    display: block;
   }
 }

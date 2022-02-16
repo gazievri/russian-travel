@@ -4,11 +4,7 @@
   font-style: normal;
   line-height: 28px;
   color: #fff;
-}
-
-.header__link:last-child {
   text-decoration: none;
-  margin-left: 18px;
 }
 
 @media (max-width: 320px) {
@@ -17,7 +13,3 @@
     line-height: 20px;
   }
 }
-
-
-
-

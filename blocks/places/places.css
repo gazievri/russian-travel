@@ -2,24 +2,32 @@
   max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding-top: 92px;
-  padding-left: 48px;
-  padding-right: 48px;
+  row-gap: 80px;
+  margin: 92px 148px;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    margin-left: 48px;
+    margin-right: 48px;
+
+  }
 }
 
 @media (max-width: 768px) {
   .places {
-    padding-top: 88px;
-    padding-left: 24px;
-    padding-right: 24px;
+    row-gap: 73px;
+    margin: 88px 24px 90px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    padding-top: 64px;
+    /*padding-top: 64px;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 16px;*/
+    margin: 64px 0 0;
+    row-gap: 50px;
   }
 }

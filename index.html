@@ -9,27 +9,30 @@
 
 <body>
   <div class="root">
+
     <header class="header">
       <img class="header__logo" alt="Логотип проекта" src="./images/header-logo.svg">
-      <nav class="header__links">
-            <a href="#" class="header__link">Ru</a>
-            <a href="#" class="header__link">En</a>
-      </nav>
-
+      <ul class="header__links">
+        <li>
+          <a href="#" class="header__link header__link_active">Ru</a>
+        </li>
+        <li>
+          <a href="#" class="header__link">En</a>
+        </li>
+      </ul>
     </header>
 
     <main class="content">
 
       <section class="lead">
-        <h1 class="lead__title">Путешествия по России</h1>
-        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+        <p class="lead__subtitle">Настоящая&nbsp;страна&nbsp;не&nbsp;в&nbsp;выпусках новостей,&nbsp;а&nbsp;здесь.</p>
         <img class="lead__picture" src="./images/lead-polka.jpg" alt="Полка в железнодорожном вагоне">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
       <section class="intro">
-
-          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <h2 class="intro__title">Чего&nbsp;мы&nbsp;там не&nbsp;видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
             <li>
@@ -48,29 +51,50 @@
               <p class="intro__list-item">Аэропортов <span class="intro__span-accent">241</span></p>
             </li>
           </ul>
-
       </section>
 
       <section class="photo-grid">
-        <div class="photo-grid__grid">
-          <img class="photo-grid__photo" src="images/photo-grid-train.jpg" alt="Вид из окна вагона">
-          <img class="photo-grid__photo" src="images/photo-grid-atharva-tulsi.jpg" alt="Горные вершины">
-          <img class="photo-grid__photo" src="images/photo-grid-tuman.jpg" alt="Туман на поле">
-          <img class="photo-grid__photo" src="images/photo-grid-sochi.jpg" alt="Еловый лес в Сочи">
-          <img class="photo-grid__photo" src="images/photo-grid-arisa.jpg" alt="Машина на льду озера">
-          <img class="photo-grid__photo" src="images/photo-grid-baikal.jpg" alt="Озеро Байкал летом">
-          <img class="photo-grid__photo" src="images/photo-grid-elbrus.jpg" alt="Эльбрус">
-          <img class="photo-grid__photo" src="images/photo-grid-kondratiev.jpg" alt="Пешеходный переход и волнорезы">
-          <img class="photo-grid__photo" src="images/photo-grid-kamchatka-1.jpg" alt="Горы в тумане на Камчатке">
-          <img class="photo-grid__photo" src="images/photo-grid-kamchatka-2.jpg" alt="Гора Камчатки">
-          <img class="photo-grid__photo" src="images/photo-grid-baikal-2.jpg" alt="Зимний Байкал">
-          <img class="photo-grid__photo" src="images/photo-grid-ergaki.jpg" alt="Горы в тумане">
-        </div>
-
+        <ul class="photo-grid__grid">
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-train.jpg" alt="Вид из окна вагона">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-atharva-tulsi.jpg" alt="Горные вершины">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-tuman.jpg" alt="Туман на поле">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-sochi.jpg" alt="Еловый лес в Сочи">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-arisa.jpg" alt="Машина на льду озера">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-baikal.jpg" alt="Озеро Байкал летом">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-elbrus.jpg" alt="Эльбрус">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-kondratiev.jpg" alt="Пешеходный переход и волнорезы">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-kamchatka-1.jpg" alt="Горы в тумане на Камчатке">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-kamchatka-2.jpg" alt="Гора Камчатки">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-baikal-2.jpg" alt="Зимний Байкал">
+          </li>
+          <li class="photo-grid__grid-list">
+            <img class="photo-grid__photo" src="images/photo-grid-ergaki.jpg" alt="Горы в тумане">
+          </li>
+        </ul>
       </section>
 
       <section class="places">
-
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
@@ -146,7 +170,7 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__row">
+      <nav class="footer__row">
         <ul class="footer__links">
           <li>
             <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
@@ -165,8 +189,7 @@
           </li>
         </ul>
         <p class="footer__author">&copy; 2022. Руслан Газиев</p>
-      </div>
-
+      </nav>
     </footer>
 
   </div>

@@ -26,9 +26,10 @@
 
 @media (max-width: 320px) {
   .intro {
-    padding-top: 64px;
+    /*padding-top: 64px;
     padding-left: 16px;
-    padding-right: 16px;
-    margin: 0;
+    padding-right: 16px;*/
+    margin: 64px 16px 0;
+    padding: 0;
   }
 }

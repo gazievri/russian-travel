@@ -19,18 +19,19 @@
 @media (max-width: 768px) {
   .lead__subtitle {
     padding: 32px 0 56px;
-    /*font-size: 16px;*/
-    font-size: calc(100vw/100*3.8);
-    line-height: 1.5;
-    max-width: calc(100vw/100*67.8);
+    font-size: 3.9vw;
+    line-height: 120%;
+    max-width: 640px;
   }
 }
 
 @media (max-width: 320px) {
   .lead__subtitle {
-    padding: 16px 0 40px;
+    /*padding: 16px 0 40px;*/
+    padding: 0;
+    margin: 16px 16px 40px;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 20px;
     max-width: 288px;
   }
 }

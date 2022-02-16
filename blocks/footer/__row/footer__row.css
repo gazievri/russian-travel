@@ -1,9 +1,15 @@
 .footer__row {
   display: flex;
   justify-content: space-between;
-  width: 92.5%;
-  margin: auto;
+  /*max-width: 1184;*/
   padding-bottom: 24px;
+  margin: 92px 48px 0;
+}
+
+@media (max-width: 1024px) {
+  .footer__row {
+    width: 90.6%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -29,5 +35,7 @@
     align-items: baseline;
     margin-left: 16px;
     margin-right: 118px;
+    margin-top: 64px;
+    row-gap: 48px;
   }
 }

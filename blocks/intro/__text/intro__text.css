@@ -11,6 +11,13 @@
 
 @media (max-width: 768px) {
   .intro__text {
-    width: 100%;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__text {
+    padding: 0;
+    margin-top: 40px;
   }
 }

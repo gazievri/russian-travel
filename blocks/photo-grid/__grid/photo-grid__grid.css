@@ -1,14 +1,16 @@
 .photo-grid__grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   row-gap: 16px;
   column-gap: 16px;
-  margin: auto;
+  margin: 92px 48px 0 48px;
+  padding: 0;
+  list-style: none;
 }
 
 @media (max-width: 1024px) {
   .photo-grid__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     row-gap: 14px;
     column-gap: 14px;
   }
@@ -16,15 +18,18 @@
 
 @media (max-width: 768px) {
   .photo-grid__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(45.8vw, 1fr));
     row-gap: 16px;
     column-gap: 16px;
+    margin: 88px 24px 0;
   }
 }
 
 @media (max-width: 320px) {
   .photo-grid__grid {
-    grid-template-columns: 1fr;
+    /*grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));*/
+    grid-template-columns: repeat(auto-fill, minmax(90vw, 1fr));
     row-gap: 12px;
+    margin: 64px 16px 0;
   }
 }

@@ -6,18 +6,32 @@
   line-height: 76px;
   color: #FFFFFF;
   margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    font-size: 7vw;
+    line-height: 106%;
+    /*max-width: 330px;*/
+  }
 }
 
 @media (max-width: 768px) {
   .place__title {
-    font-size: 42px;
-    line-height: 46px;
+    font-size: minmax(10vw,42px);
+    line-height: 110%;
+    /*width: 100%;*/
+    /*max-width: 330px;*/
   }
 }
 
 @media (max-width: 320px) {
   .place__title {
-    font-size: 32px;
+    font-size: 10vw;
     line-height: 109%;
+    /*margin: 0 0 0 16px;*/
+    padding-left: 16px;
+   /* width: 100%;*/
   }
 }

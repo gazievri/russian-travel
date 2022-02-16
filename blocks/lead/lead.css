@@ -9,6 +9,7 @@
 
 @media (max-width: 1024px) {
   .lead {
+    padding-top: 48px;
     padding-left: 48px;
     padding-right: 48px;
   }
@@ -23,8 +24,7 @@
 
 @media (max-width: 320px) {
   .lead {
-    padding-top: 48px;
-    padding-left: 0;
-    padding-right: 0;
+    /*padding-top: 48px;*/
+    padding: 0;
   }
 }

@@ -10,7 +10,8 @@
 
 @media (max-width: 768px) {
   .intro__title {
-
+    font-size: 10vw;
+    line-height: 107%;
     width: 100%;
   }
 }
